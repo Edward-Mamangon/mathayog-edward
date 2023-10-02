@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Omnes-Regular;
+    /* overflow: hidden; */
+}
+
+body{
+    background-color: #EFB83C;
+    z-index: -10;
+}
+
+.navbar{
+    height: 15vh;
+    background-color: #FFFFFF;
+}
+
+.activity-container{
+    height: 85vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    justify-items: center;
+}
+
+.activity-content{
+    width: 85%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
