@@ -14,8 +14,8 @@ const choices = document.querySelectorAll('choice-item');
 var correct = false;
 const feedbackContent = document.getElementById('feedbackContent');
 const feedbackArr = [
-        "Correct! Since the TENS digit of 15 is 1, we have 1 tens. We can also break down 15 into 10 + 5, which shows that 15 consists of 1 tens and 5 ones.",
-        "If we break down 15 into 10 + 5. How many tens are there in 10? "
+        "Correct! Since we illustrate tens using base-10 blocks, 1 tens is illustrated as 1 base-10 block.",
+        "Tens can be represented with base-10 blocks. How can we represent 1 tens using base-10 blocks?"
     ];
 
 const language = document.getElementById('dropdownMenu');
@@ -71,7 +71,7 @@ continueButton.addEventListener('click', function () {
     mainContainer.style.paddingBottom = '150px';
     //redirect page
     if (correct == true){
-        window.location.href = '../views/activity_1-3_1B.html';
+        window.location.href = '../views/activity_1-3_1C.html';
     }
 });
 

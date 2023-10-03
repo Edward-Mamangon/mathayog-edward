@@ -14,8 +14,8 @@ const choices = document.querySelectorAll('choice-item');
 var correct = false;
 const feedbackContent = document.getElementById('feedbackContent');
 const feedbackArr = [
-        "Correct! Since the TENS digit of 15 is 1, we have 1 tens. We can also break down 15 into 10 + 5, which shows that 15 consists of 1 tens and 5 ones.",
-        "If we break down 15 into 10 + 5. How many tens are there in 10? "
+        "Correct! Since we illustrate ones using single blocks, 5 ones are illustrated as 5 single blocks.",
+        "Check the figures. Which contains the correct blocks to represent 5 ones?"
     ];
 
 const language = document.getElementById('dropdownMenu');
@@ -32,7 +32,7 @@ choiceItems.forEach((element) => {
       // Add the 'selected' class to the clicked choice element
       element.classList.add('selected');
 
-      if (element.getAttribute('data-choice') === '1') {
+      if (element.getAttribute('data-choice') === '2') {
         correct = true;
         }
         else{
@@ -71,7 +71,7 @@ continueButton.addEventListener('click', function () {
     mainContainer.style.paddingBottom = '150px';
     //redirect page
     if (correct == true){
-        window.location.href = '../views/activity_1-3_1B.html';
+        window.location.href = '../views/activity_1-3_1E.html';
     }
 });
 
