@@ -14,8 +14,8 @@ const choices = document.querySelectorAll('choice-item');
 var correct = false;
 const feedbackContent = document.getElementById('feedbackContent');
 const feedbackArr = [
-        "Correct! Since we illustrate tens using base-10 blocks, 1 tens is illustrated as 1 base-10 block.",
-        "Tens can be represented with base-10 blocks. How can we represent 1 tens using base-10 blocks?"
+        "Tama! Dahil sa inilalarawan natin ang sampuan gamit ang base 10 block, ang 1 sampuan ay inilarawan bilang 1 base 10 block. ",
+        "Suriin ang mga pigura. Alin ang naglalaman ng tamang uri ng bloke na kumakatawan sa 1 sampuan?"
     ];
 
 const language = document.getElementById('dropdownMenu');

@@ -14,8 +14,8 @@ const choices = document.querySelectorAll('choice-item');
 var correct = false;
 const feedbackContent = document.getElementById('feedbackContent');
 const feedbackArr = [
-        "Correct! Since the TENS digit of 15 is 1, we have 1 tens. We can also break down 15 into 10 + 5, which shows that 15 consists of 1 tens and 5 ones.",
-        "If we break down 15 into 10 + 5. How many tens are there in 10? "
+        "Tama! Dahil sa ang tambilang sa SAMPUAN ng 15 ay 1, mayroon tayong 1 sampuan. Maaari rin natin hatiin ang 15 sa 10 + 5, na siyang nagpapakita na ang 15 ay binubuo ng 1 sampuan at 5 isahan.",
+        "Tignan ng maigi ang numero. Ano ang tambilang sa SAMPUAN? "
     ];
 
 const language = document.getElementById('dropdownMenu');

@@ -71,7 +71,7 @@ continueButton.addEventListener('click', function () {
     mainContainer.style.paddingBottom = '150px';
     //redirect page
     if (correct == true){
-        window.location.href = '../views/activity_1-3-A2_1A.html';
+        window.location.href = 'https://mathayog.netlify.app/mathayog/milestone/';
     }
 });
 

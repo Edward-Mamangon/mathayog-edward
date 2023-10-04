@@ -14,8 +14,8 @@ const choices = document.querySelectorAll('choice-item');
 var correct = false;
 const feedbackContent = document.getElementById('feedbackContent');
 const feedbackArr = [
-        "Correct! Since the TENS digit of 54 is 5, we have 5 tens. We can also break down 54 into 50 + 4, which shows that 54 consists of 5 tens and 4 ones. ",
-        "Take a look at the number. What is the TENS digit?"
+        "Tama! Dahil sa ang tambilang sa SAMPUAN ng 54 ay 5, mayroon tayong 5 sampuan. Maaari rin natin hatiin ang 54 sa 50 + 4, na siyang nagpapakita na ang 54 ay binubuo ng 5 sampuan at 4 isahan.  ",
+        "Tignan ng maigi ang numero. Ano ang tambilang sa SAMPUAN? "
     ];
 
 const language = document.getElementById('dropdownMenu');

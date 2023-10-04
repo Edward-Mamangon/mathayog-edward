@@ -14,8 +14,8 @@ const choices = document.querySelectorAll('choice-item');
 var correct = false;
 const feedbackContent = document.getElementById('feedbackContent');
 const feedbackArr = [
-        "Correct! Since we illustrate tens using base-10 blocks, 5 tens are illustrated as 5 base-10 blocks.",
-        "Check the figures. Which contains the correct number of blocks that represent 5 tens?"
+        "Tama! Dahil sa inilalarawan natin ang sampuan gamit ang base 10 block, ang 5 sampuan ay inilarawan bilang 5 base 10 block. ",
+        "Suriin ang mga pigura. Alin ang naglalaman ng tamang uri ng bloke na kumakatawan sa 5 sampuan?  "
     ];
 
 const language = document.getElementById('dropdownMenu');
