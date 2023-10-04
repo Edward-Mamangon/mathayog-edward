@@ -6,7 +6,7 @@ const nextBtn = document.getElementById('popupBtn');
 window.addEventListener('load', () => {
     setTimeout( (e) => {
         popUp.style.height = '15vh';
-        videoLessonContainer.style.paddingBottom = '50px';
+        videoLessonContainer.style.paddingBottom = '-150px';
     }, 10000
 
     )

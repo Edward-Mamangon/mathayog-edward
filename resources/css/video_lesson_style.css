@@ -291,3 +291,20 @@ h4.hint-title{
     border-bottom: 6px solid #7187E4;
     margin-right: 85px;
 }
+
+
+@media only screen and (min-width: 1281px){
+
+    .video-lesson-container{
+        height: 90vh;
+        padding-bottom: 0px;
+
+    }
+
+    .video-content{
+        height: auto;
+        width: 70%;
+    }
+
+
+}
